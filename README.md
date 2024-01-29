@@ -76,6 +76,23 @@ folder1/
         └── file4
 ```
 
+```sql
+CREATE TABLE users (
+    user_id int,
+    username varchar(255),
+    password varchar(255),
+);
+
+CREATE TABLE posts (
+    post_id int,
+    title varchar(255),
+    content text,
+    image: varchar(255),
+    id_user: int,
+    created_at: datetime,
+);
+```
+
 ## Bugs and feature requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
