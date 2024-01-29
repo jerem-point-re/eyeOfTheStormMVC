@@ -1,1 +1,1 @@
-![alt text](https://github.com/jerem-point-re/eyeOfTheStormMVC/mockup.jpg?raw=true)
+!(https://github.com/jerem-point-re/eyeOfTheStormMVC/mockup.jpg?raw=true)
