@@ -1,0 +1,2 @@
+# On ajoute le fichier de configuration de la base de données au .gitignore car c'est un fichier sensible qui ne doit être vu que par les développeurs qui travaillent sur l'application.
+models/db.php
