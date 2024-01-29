@@ -21,3 +21,19 @@ function postAction()
 
     showPostPage();
 }
+
+function deleteAction()
+{
+
+    global $baseURL;
+
+    // Vérifie si le post existe et définit l'ID
+    if (isset($_GET['id'])) {
+        $id_post = $_GET['id'];
+
+        deletePost($id_post);
+        echo "Post supprimé";
+    }
+    // Si le post n'existe pas, redirige vers l'accueil
+    header("Location: $baseURL?p=home");
+}

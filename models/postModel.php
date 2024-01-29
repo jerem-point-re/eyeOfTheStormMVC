@@ -40,3 +40,22 @@ function getPostsCollection()
         return false;
     }
 }
+
+function deletePost($id_post)
+{
+    try {
+        global $pdo;
+
+        $query = $pdo->prepare("DELETE FROM posts WHERE id_post = :i");
+        $query->execute([
+            'i' => $id_post
+        ]);
+
+        return true;
+
+    } catch (PDOException $e) {
+        echo $e->getMessage();
+
+        return false;
+    }
+}

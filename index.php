@@ -7,6 +7,15 @@ require_once("autoloader.php");
 if (isset($_GET['p'])) {
     // On utilise une boucle switch pour vérifier la valeur de ce paramètre : si la valeur est 'home', la fonction associée est appelée (homeAction()), sinon la fonction par défaut est appelée.
     switch ($_GET['p']) {
+        case 'post':
+            postAction();
+            break;
+        case 'edit':
+            editAction();
+            break;
+        case 'delete':
+            deleteAction();
+            break;
         // On instancie les paramètres d'URL à login et register pour satisfaire les fonctions dans leurs pages respectives.
         case 'login':
             loginAction();
