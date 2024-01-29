@@ -1,0 +1,23 @@
+:root {
+    --ion-background-color: #EEE;
+    /* --ion-text-color: #FFF; */
+}
+
+ion-button.button-full {
+    height: 32px;
+}
+
+ion-card {
+    border-radius: 16px;
+    /* --ion-background-color: #777; */
+    /* --ion-text-color: #EEE;
+    color: #EEE; */
+}
+
+ion-card-header#userImage > img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px;
+    /* filter: invert(1); */
+}

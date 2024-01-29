@@ -18,8 +18,6 @@ global $baseURL, $logged;
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     <!-- On déclare notre CSS après celui d'Ionic au cas où l'on aurait besoin de supplanter du style -->
     <link rel="stylesheet" href="../style.css">
-    <!-- On instancie notre JavaScript pour les quelques intéractions dont on a besoin -->
-    <script src="../app.js" defer></script>
 </head>
 
 <body>
