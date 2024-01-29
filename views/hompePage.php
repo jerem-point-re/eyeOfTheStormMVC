@@ -1,6 +1,6 @@
 <?php
 
-function showHomePage()
+function showHomePage($collection)
 // On définit une fonction showHomePage() qui va générer le contenu de la page d'accueil d'une application web.
 {
     global $baseURL, $logged;
@@ -27,8 +27,45 @@ function showHomePage()
         <?php } ?>
         <?php if ($logged) { ?>
             <ion-row>
-                <!-- TODO: Implement the function to show all posts -->
-                <p>Les posts des utilisateurs vont s'afficher dans un instant</p>
+                <?php foreach ($collection as $c) { ?>
+                    <ion-col size-lg="6" size="12">
+                        <ion-card class="ion-padding">
+                            <ion-card-header id="userImage">
+                                <?php if ($c["image"]) { ?>
+                                    <img src="<?= $c["image"] ?>" alt="">
+                                <?php } ?>
+                            </ion-card-header>
+
+                            <ion-card-title>
+                                <ion-item>
+                                    <?php if ($c["id_user"] === $_SESSION["user"]["id_user"]) { ?>
+                                        <ion-buttons slot="end">
+                                            <ion-button fill="clear" slot="icon-only">
+                                                <a href="<?php $baseURL ?>?p=edit&id_post=<?= $c['id_post'] ?>">
+                                                    <ion-button fill="clear" slot="icon-only">
+                                                        <ion-icon name="create-outline" slot="icon-only" color="primary"></ion-icon>
+                                                </a>
+                                            </ion-button>
+                                            <ion-button fill="clear" slot="icon-only">
+                                                <a href="<?php $baseURL ?>?p=delete&id=<?= $c['id_post'] ?>">
+                                                    <ion-icon name="trash-outline" slot="icon-only" color="danger"></ion-icon>
+                                                </a>
+                                            </ion-button>
+                                        </ion-buttons>
+                                    <?php } ?>
+                                    <?= $c["title"] ?>
+                                </ion-item>
+                            </ion-card-title>
+
+                            <ion-card-subtitle class="ion-text-center">
+                                <p>
+                                    <?= $c["content"] ?>
+                                </p>
+                            </ion-card-subtitle>
+
+                        </ion-card>
+                    </ion-col>
+                <?php } ?>
             </ion-row>
 
             <!-- On affiche conditionnellement un bouton en fonction de la valeur de la variable $title pour pouvoir plus tard ajouter un post depuis cette page. -->

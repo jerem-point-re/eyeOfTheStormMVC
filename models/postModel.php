@@ -26,3 +26,17 @@ function createPost($title, $content, $id_user, $image)
         // false arrête l'execution de la fonction.
     }
 }
+
+function getPostsCollection()
+{
+    global $pdo;
+    try {
+        $query = $pdo->prepare("SELECT * FROM posts ORDER BY created_at DESC");
+        $query->execute();
+        $collection = $query->fetchAll();
+        return $collection;
+    } catch (PDOException $e) {
+        echo $e->getMessage();
+        return false;
+    }
+}
