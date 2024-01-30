@@ -9,7 +9,7 @@
 
   <p align="center">
 	  Création d'une application web permettant aux utilisateurs de se connecter, de poster des images et des commentaires relatifs au cyclone "Belal". Cette plateforme vise à collecter des données en temps réel et à fournir une plateforme d'échange et d'information pour les communautés affectées et les intervenants.
-    <br>
+    <br><br>
     <a href="https://meteofrance.re/fr/cyclone"><font color="red">Météo France</font></a>
     ·
     <a href="https://regionreunion.com/"><font color="red">Région Réunion</font></a>
@@ -27,12 +27,12 @@
 - <font color="red">[Remerciements](#remerciements)</font>
 
 
-<font color="red">## Introduction</font>
+## Introduction
 
-En tant que développeur web, vous devez concevoir une interface utilisateur intuitive permettant aux utilisateurs de s'inscrire, de se connecter, et de partager des images et des commentaires en temps réel sur la situation du cyclone "Belal". La plateforme doit également permettre une visualisation efficace des données collectées.
+En tant que développeur web, concevoir une interface utilisateur intuitive permettant aux utilisateurs de <strong>s'inscrire</strong>, de se connecter, et de partager des images et des commentaires en temps réel sur la situation du cyclone "Belal". La plateforme doit également permettre une visualisation efficace des données collectées.
 
 
-<font color="red">## Compétences</font>
+## Compétences
 
 - 1️⃣ Conception et développement d'interfaces utilisateur web &nbsp;&nbsp;&nbsp;✅
 - 2️⃣ Gestion de bases de données &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅
