@@ -19,12 +19,11 @@
 
 ## Sommaire automatique 😅
 
-- <font color="red">[Introducion](#introduction)</font>
-- <font color="red">[Compétences](#competences)</font>
-- <font color="red">[Esquisse](#esquisse)</font>
-- <font color="red">[Installation](#installation)</font>
-- <font color="red">[Développement](#developpement)</font>
-- <font color="red">[Remerciements](#remerciements)</font>
+- [Introducion](#introduction)
+- [Compétences](#competences)
+- [Esquisse](#esquisse)
+- [Installation](#installation)
+- [Remerciements](#remerciements)
 
 <br>
 
@@ -56,6 +55,32 @@ En tant que **développeur web**, concevoir une **interface utilisateur intuitiv
 
 ⚠️ Soyez sûr.e que votre environnement soit prêt pour le développement avec PHP (``php -v``).
 
+<p>Clonez le GitHub pour avoir les dossiers et fichiers nécessaires au projet :</p>
+
+⚠️ N'oubliez pas de créer le fichier ``models/db.php`` :
+
+```text
+<?php
+
+// On déclare la variable globale $pdo pour pouvoir l'assigner plus tard.
+global $pdo;
+
+// On utilise PDO dans le MVC* pour sécuriser la connexion à la base de données et éviter les injections SQL.
+if(isset($pdo)) {
+    // Si la connexion avec PDO est effective alors on la retourne dans la variable $pdo définie ci-après.
+    return $pdo;
+}
+
+// On assigne la variable $pdo en déclarant une nouvelle instance de PDO.
+$pdo = new PDO('mysql:host=VOTREHOTE;dbname=NOMDELABASEDEDONNÉES;charset=utf8','NOMD'UTILISATEUR','MOTDEPASSE');
+// Les paramètres de la fonction servent à établir la connexion avec la base de données, le language de la base, l'hôte, le nom de la base, l'utilisateur et le mot de passe pour cette base sont également renseignés
+
+// * MVC : Modèle Vue Contrôleur, cf https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur
+```
+
+<br>
+📓 Votre arborescence doit ressembler à ce qui suit :
+
 ```text
 eyeOfTheStorm/
     ├── controllers/
@@ -83,6 +108,9 @@ eyeOfTheStorm/
     └── style.css
 ```
 
+<br>
+<p>Voici un script pour créer la base de données :</p>
+
 ```sql
 CREATE TABLE `users` (
 	`id_user` INT NOT NULL AUTO_INCREMENT,
@@ -104,40 +132,10 @@ CREATE TABLE `posts` (
 
 <br>
 
-## Bugs and feature requests
+## Remerciement
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+La promo DWWM & les formateurs de l'IFR.
 
-<br>
+Gros love sur Romain & Élodie pour l'aide appportée
 
-<font color="red">## Contributing</font>
-
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
-
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
-
-<br>
-
-<font color="red">## Creators</font>
-
-**Creator 1**
-
-- <https://github.com/usernamecreator1>
-
-<br>
-
-<font color="red">## Thanks</font>
-
-Some Text
-
-<br>
-
-<font color="red">## Copyright and license</font>
-
-Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
-
-<br>
-
-<font color="red">VOUS êtes les meilleur.es</font> :metal:
+VOUS êtes les meilleur.es :metal:
