@@ -4,50 +4,50 @@
   </a>
 
   <h3 align="center">
-	  Eye of the Storm: Plateforme Collaborative pour le Suivi du Cyclone Belal
+	  <font color="red">Eye of the Storm:</font> Plateforme Collaborative pour le Suivi du Cyclone Belal
   </h3>
 
   <p align="center">
 	  Création d'une application web permettant aux utilisateurs de se connecter, de poster des images et des commentaires relatifs au cyclone "Belal". Cette plateforme vise à collecter des données en temps réel et à fournir une plateforme d'échange et d'information pour les communautés affectées et les intervenants.
     <br>
-    <a href="https://meteofrance.re/fr/cyclone">Météo France</a>
+    <a href="https://meteofrance.re/fr/cyclone"><font color="red">Météo France</font></a>
     ·
-    <a href="https://regionreunion.com/">Région Réunion</a>
+    <a href="https://regionreunion.com/"><font color="red">Région Réunion</font></a>
   </p>
 </p>
 
 
 ## Table of contents
 
-- [Introducion](#Introduction)
-- [Compétences](#Compétences)
-- [Esquisse](#Esquisse)
-- [Installation](#Installation)
-- [Développement](#Développement)
-- [Remerciements](#Remerciements)
+- <font color="red">[Introducion](#Introduction)</font>
+- <font color="red">[Compétences](#Compétences)</font>
+- <font color="red">[Esquisse](#Esquisse)</font>
+- <font color="red">[Installation](#Installation)</font>
+- <font color="red">[Développement](#Développement)</font>
+- <font color="red">[Remerciements](#Remerciements)</font>
 
 
-## Introduction
+<font color="red">## Introduction</font>
 
 En tant que développeur web, vous devez concevoir une interface utilisateur intuitive permettant aux utilisateurs de s'inscrire, de se connecter, et de partager des images et des commentaires en temps réel sur la situation du cyclone "Belal". La plateforme doit également permettre une visualisation efficace des données collectées.
 
 
-## Compétences
+<font color="red">## Compétences</font>
 
-- 1️⃣ Conception et développement d'interfaces utilisateur web   ✅
-- 2️⃣ Gestion de bases de données                                ✅
-- 3️⃣ Sécurité des applications web                              ✅
-- 4️⃣ Gestion de contenu et interaction utilisateur              ✅
-- 5️⃣ Prendre des pauses pour se relaxer                         ❌
+- 1️⃣ Conception et développement d'interfaces utilisateur web &nbsp;&nbsp;&nbsp;✅
+- 2️⃣ Gestion de bases de données &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅
+- 3️⃣ Sécurité des applications web &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅
+- 4️⃣ Gestion de contenu et interaction utilisateur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅
+- 5️⃣ Prendre des pauses pour se relaxer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌
 
-## Esquisse
+<font color="red">## Esquisse</font>
 
 <![MockUp](mockup.jpg)
 <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 
 Here goes all the budgets
 
-## What's included
+<font color="red">## What's included</font>
 
 Some text
 
@@ -81,11 +81,11 @@ CREATE TABLE `posts` (
 );
 ```
 
-## Bugs and feature requests
+<font color="red">## Bugs and feature requests</font>
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
 
-## Contributing
+<font color="red">## Contributing</font>
 
 Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
@@ -93,18 +93,18 @@ Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com
 
 Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
-## Creators
+<font color="red">## Creators</font>
 
 **Creator 1**
 
 - <https://github.com/usernamecreator1>
 
-## Thanks
+<font color="red">## Thanks</font>
 
 Some Text
 
-## Copyright and license
+<font color="red">## Copyright and license</font>
 
 Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
 
-Enjoy :metal:
+<font color="red">VOUS êtes les meilleur.es</font> :metal:
