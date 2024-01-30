@@ -1,63 +1,49 @@
-![MockUp](mockup.jpg)
-<a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
-
-
-Eye of the Storm: Plateforme Collaborative pour le Suivi du Cyclone Belal
-
-Création d'une application web permettant aux utilisateurs de se connecter, de poster des images et des commentaires relatifs au cyclone "Belal". Cette plateforme vise à collecter des données en temps réel et à fournir une plateforme d'échange et d'information pour les communautés affectées et les intervenants.
-
- ✅
-
- 
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
 <p align="center">
-  <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+  <a href="https://github.com/jerem-point-re/eyeOfTheStormMVC/">
+    <img src="thunderstorm-outline.svg" alt="Logo" width=96 height=96>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">
+	  Eye of the Storm: Plateforme Collaborative pour le Suivi du Cyclone Belal
+  </h3>
 
   <p align="center">
-    Short description
+	  Création d'une application web permettant aux utilisateurs de se connecter, de poster des images et des commentaires relatifs au cyclone "Belal". Cette plateforme vise à collecter des données en temps réel et à fournir une plateforme d'échange et d'information pour les communautés affectées et les intervenants.
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
+    <a href="https://meteofrance.re/fr/cyclone">Météo France</a>
     ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://regionreunion.com/">Request feature</a>
   </p>
 </p>
 
 
 ## Table of contents
 
-- [Quick start](#quick-start)
-- [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
+- [Introducion](#Introduction)
+- [Compétences](#Compétences)
+- [Esquisse](#Esquisse)
+- [Installation](#Installation)
+- [Développement](#Développement)
+- [Remerciements](#Remerciements)
 
 
-## Quick start
+## Introduction
 
-Some text
+En tant que développeur web, vous devez concevoir une interface utilisateur intuitive permettant aux utilisateurs de s'inscrire, de se connecter, et de partager des images et des commentaires en temps réel sur la situation du cyclone "Belal". La plateforme doit également permettre une visualisation efficace des données collectées.
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
 
-## Status
+## Compétences
+
+1️⃣ Conception et développement d'interfaces utilisateur web   ✅
+2️⃣ Gestion de bases de données                                ✅
+3️⃣ Sécurité des applications web                              ✅
+4️⃣ Gestion de contenu et interaction utilisateur              ✅
+5️⃣ Prendre des pauses pour se relaxer                         ❌
+
+## Esquisse
+
+<![MockUp](mockup.jpg)
+<a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 
 Here goes all the budgets
 
