@@ -47,7 +47,7 @@ En tant que **développeur web**, concevoir une **interface utilisateur intuitiv
 ## Esquisse
 
 ![MockUp](mockup.jpg)
-<center><a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a></center>
+<p align="center">[Designed by rawpixel.com / Freepik](http://www.freepik.com)</p>
 
 <br>
 
