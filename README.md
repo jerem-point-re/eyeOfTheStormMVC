@@ -20,7 +20,7 @@
 ## Sommaire automatique 😅
 
 - [Introducion](#introduction)
-- [Compétences](#competences)
+- [Compétences](#compétences)
 - [Esquisse](#esquisse)
 - [Installation](#installation)
 - [Remerciements](#remerciements)
