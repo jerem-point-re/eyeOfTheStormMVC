@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/jerem-point-re/eyeOfTheStormMVC/">
-    <img src="thunderstorm-outline.svg" alt="Logo" width=96 height=96>
+    <img src="logo.svg" alt="Logo" width=96 height=96>
   </a>
 
   <h3 align="center">
