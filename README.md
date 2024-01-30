@@ -47,7 +47,7 @@ En tant que **développeur web**, concevoir une **interface utilisateur intuitiv
 ## Esquisse
 
 ![MockUp](mockup.jpg)
-<p align="center">[Designed by rawpixel.com / Freepik](http://www.freepik.com)</p>
+<a align="center" href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 
 <br>
 
@@ -105,7 +105,7 @@ CREATE TABLE `posts` (
 
 <br>
 
-<font color="red">## Bugs and feature requests</font>
+## Bugs and feature requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
 
