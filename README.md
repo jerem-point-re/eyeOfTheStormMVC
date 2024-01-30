@@ -47,9 +47,14 @@ En tant que **développeur web**, concevoir une **interface utilisateur intuitiv
 ## Esquisse
 
 ![MockUp](mockup.jpg)
-<a align="center" href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+<a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+
 
 <br>
+
+## Installation
+
+⚠️ Soyez sûr.e que votre environnement soit prêt pour le développement avec PHP (``php -v``).
 
 ```text
 eyeOfTheStorm/
@@ -77,12 +82,6 @@ eyeOfTheStorm/
     ├── index.php
     └── style.css
 ```
-
-<br>
-
-## Installation
-
-Some text
 
 ```sql
 CREATE TABLE `users` (
