@@ -12,7 +12,7 @@
     <br>
     <a href="https://meteofrance.re/fr/cyclone">Météo France</a>
     ·
-    <a href="https://regionreunion.com/">Request feature</a>
+    <a href="https://regionreunion.com/">Région Réunion</a>
   </p>
 </p>
 
