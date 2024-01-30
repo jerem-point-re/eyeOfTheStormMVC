@@ -132,7 +132,7 @@ CREATE TABLE `posts` (
 
 <br>
 
-## Remerciement
+## Remerciements
 
 La promo DWWM & les formateurs de l'IFR.
 
