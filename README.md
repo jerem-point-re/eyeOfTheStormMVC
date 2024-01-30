@@ -34,11 +34,11 @@ En tant que développeur web, vous devez concevoir une interface utilisateur int
 
 ## Compétences
 
-1️⃣ Conception et développement d'interfaces utilisateur web   ✅
-2️⃣ Gestion de bases de données                                ✅
-3️⃣ Sécurité des applications web                              ✅
-4️⃣ Gestion de contenu et interaction utilisateur              ✅
-5️⃣ Prendre des pauses pour se relaxer                         ❌
+- 1️⃣ Conception et développement d'interfaces utilisateur web   ✅
+- 2️⃣ Gestion de bases de données                                ✅
+- 3️⃣ Sécurité des applications web                              ✅
+- 4️⃣ Gestion de contenu et interaction utilisateur              ✅
+- 5️⃣ Prendre des pauses pour se relaxer                         ❌
 
 ## Esquisse
 
