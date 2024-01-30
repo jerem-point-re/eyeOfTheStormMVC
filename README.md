@@ -4,7 +4,7 @@
   </a>
 
   <h3 align="center">
-	  <p style="color: red">Eye of the Storm:</p> Plateforme Collaborative pour le Suivi du Cyclone Belal
+	  Eye of the Storm: Plateforme Collaborative pour le Suivi du Cyclone Belal
   </h3>
 
   <p align="center">
