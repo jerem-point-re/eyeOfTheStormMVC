@@ -77,19 +77,21 @@ folder1/
 ```
 
 ```sql
-CREATE TABLE users (
-    user_id int,
-    username varchar(255),
-    password varchar(255),
+CREATE TABLE `users` (
+	`id_user` INT NOT NULL AUTO_INCREMENT,
+	`username` varchar(50) NOT NULL,
+	`password` varchar(255) NOT NULL,
+	PRIMARY KEY (`id_user`)
 );
 
-CREATE TABLE posts (
-    post_id int,
-    title varchar(255),
-    content text,
-    image: varchar(255),
-    id_user: int,
-    created_at: datetime,
+CREATE TABLE `posts` (
+	`id_post` INT NOT NULL AUTO_INCREMENT,
+	`title` varchar(50) NOT NULL,
+	`content` TEXT NOT NULL,
+	`id_user` int NOT NULL,
+	`image` varchar(255) NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	PRIMARY KEY (`id_post`)
 );
 ```
 
