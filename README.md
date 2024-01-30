@@ -19,12 +19,12 @@
 
 ## Table of contents
 
-- <font color="red">[Introducion](#Introduction)</font>
-- <font color="red">[Compétences](#Compétences)</font>
-- <font color="red">[Esquisse](#Esquisse)</font>
-- <font color="red">[Installation](#Installation)</font>
-- <font color="red">[Développement](#Développement)</font>
-- <font color="red">[Remerciements](#Remerciements)</font>
+- <font color="red">[Introducion](#introduction)</font>
+- <font color="red">[Compétences](#competences)</font>
+- <font color="red">[Esquisse](#esquisse)</font>
+- <font color="red">[Installation](#installation)</font>
+- <font color="red">[Développement](#developpement)</font>
+- <font color="red">[Remerciements](#remerciements)</font>
 
 
 <font color="red">## Introduction</font>
