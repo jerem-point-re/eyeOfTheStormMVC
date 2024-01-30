@@ -54,18 +54,28 @@ En tant que **développeur web**, concevoir une **interface utilisateur intuitiv
 ```text
 eyeOfTheStorm/
     ├── controllers/
-    │   ├── file1
-    │   └── file2
+    │   ├── editController.php
+    │   ├── homeController.php
+    │   ├── loginController.php
+    │   ├── postController.php
+    │   └── registerController.php
     └── models/
-    │   ├── file3
-    │   └── file4
-    └── models/
-    │   ├── file3
-    │   └── file4
+    │   ├── db.php
+    │   ├── editModel.php
+    │   ├── loginModel.php
+    │   ├── postModel.php
+    │   └── registerModel.php
+    └── views/
+    │   ├── editPage.php
+    │   ├── homePage.php
+    │   ├── layout.php
+    │   ├── loginPage.php
+    │   ├── postPage.php
+    │   └── registerPage.php
     ├── .gitignore
     ├── autoloader.php
     ├── index.php
-    ├── style.css
+    └── style.css
 ```
 
 <br>
