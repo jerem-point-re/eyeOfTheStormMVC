@@ -17,7 +17,7 @@
 </p>
 
 
-## Table of contents
+## Sommaire automatique 😅
 
 - <font color="red">[Introducion](#introduction)</font>
 - <font color="red">[Compétences](#competences)</font>
@@ -26,11 +26,13 @@
 - <font color="red">[Développement](#developpement)</font>
 - <font color="red">[Remerciements](#remerciements)</font>
 
+<br>
 
 ## Introduction
 
-En tant que développeur web, concevoir une interface utilisateur intuitive permettant aux utilisateurs de <strong>s'inscrire</strong>, de se connecter, et de partager des images et des commentaires en temps réel sur la situation du cyclone "Belal". La plateforme doit également permettre une visualisation efficace des données collectées.
+En tant que **développeur web**, concevoir une **interface utilisateur intuitive** permettant aux utilisateurs de **s'inscrire**, de **se connecter**, et de **partager des images** et des **posts en temps réel** sur la situation du cyclone "**Belal**". La plateforme doit également **permettre** une **visualisation efficace** des **données collectées**.
 
+<br>
 
 ## Compétences
 
@@ -40,27 +42,37 @@ En tant que développeur web, concevoir une interface utilisateur intuitive perm
 - 4️⃣ Gestion de contenu et interaction utilisateur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅
 - 5️⃣ Prendre des pauses pour se relaxer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌
 
-<font color="red">## Esquisse</font>
+<br>
+
+## Esquisse
 
 <![MockUp](mockup.jpg)
 <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 
-Here goes all the budgets
-
-<font color="red">## What's included</font>
-
-Some text
+<br>
 
 ```text
-folder1/
-└── folder2/
-    ├── folder3/
+eyeOfTheStorm/
+    ├── controllers/
     │   ├── file1
     │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
+    └── models/
+    │   ├── file3
+    │   └── file4
+    └── models/
+    │   ├── file3
+    │   └── file4
+    ├── .gitignore
+    ├── autoloader.php
+    ├── index.php
+    ├── style.css
 ```
+
+<br>
+
+## Installation
+
+Some text
 
 ```sql
 CREATE TABLE `users` (
@@ -81,9 +93,13 @@ CREATE TABLE `posts` (
 );
 ```
 
+<br>
+
 <font color="red">## Bugs and feature requests</font>
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+
+<br>
 
 <font color="red">## Contributing</font>
 
@@ -93,18 +109,26 @@ Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com
 
 Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
+<br>
+
 <font color="red">## Creators</font>
 
 **Creator 1**
 
 - <https://github.com/usernamecreator1>
 
+<br>
+
 <font color="red">## Thanks</font>
 
 Some Text
 
+<br>
+
 <font color="red">## Copyright and license</font>
 
 Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+
+<br>
 
 <font color="red">VOUS êtes les meilleur.es</font> :metal:
