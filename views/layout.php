@@ -11,6 +11,7 @@ global $baseURL, $logged;
 
 <head>
     <meta charset="UTF-8">
+    <title>Eye of the Storm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Création du fichier HTML basique et importation du framework Ionic* pour que l'application Web ressemble un peu plus à un application mobile, mais le responsive** en plus ! -->
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
