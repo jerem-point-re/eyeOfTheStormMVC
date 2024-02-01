@@ -6,7 +6,7 @@ session_start();
 
 global $baseURL, $logged, $loggedID;
 // global $baseURL, $logged, $loggedID; - Cette ligne déclare trois variables globales qui seront utilisées tout au long de l'application.
-$baseURL = "http://localhost:8888/roshanc/eyeOfTheStorm/";
+$baseURL = "http://localhost:8888/roshanc/eyeOfTheStormMVC/";
 // Contient l'URL de base de l'application, utilisée pour construire des URL absolues pour les liens et les formulaires.
 $logged = isset( $_SESSION['user']);
 // Booléen qui indique si l'utilisateur actuel est connecté en récupérant la valeur de la variable $_SESSION au tableau ['user'].
